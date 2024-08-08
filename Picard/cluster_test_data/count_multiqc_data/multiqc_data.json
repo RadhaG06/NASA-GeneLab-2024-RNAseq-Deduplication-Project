@@ -1,0 +1,371 @@
+{
+    "report_data_sources": {
+        "Rsem": {
+            "all_sections": {
+                "RRRM1_MG_VIV_LAR_OLD_VL19": "/global/data/temp_scratch/dlho/truncated_test_files/RSEM_output/RRRM1_MG_VIV_LAR_OLD_VL19.stat/RRRM1_MG_VIV_LAR_OLD_VL19.cnt"
+            }
+        }
+    },
+    "report_general_stats_data": [
+        {
+            "RRRM1_MG_VIV_LAR_OLD_VL19": {
+                "Unalignable": 46649,
+                "Alignable": 658401,
+                "Filtered": 0,
+                "Total": 705050,
+                "alignable_percent": 93.38358981632508,
+                "Unique": 533735,
+                "Multi": 124666,
+                "Uncertain": 414302
+            }
+        }
+    ],
+    "report_general_stats_headers": [
+        {
+            "alignable_percent": {
+                "title": "% Alignable",
+                "description": "% Alignable reads",
+                "max": 100,
+                "min": 0,
+                "suffix": "%",
+                "scale": "YlGn",
+                "namespace": "Rsem",
+                "rid": "mqc-generalstats-rsem-alignable_percent",
+                "format": "{:,.1f}",
+                "colour": "55,126,184",
+                "hidden": null,
+                "ceiling": null,
+                "floor": null,
+                "minRange": null,
+                "shared_key": null,
+                "modify": null,
+                "placement": 1000.0,
+                "dmax": 100.0,
+                "dmin": 0.0
+            }
+        }
+    ],
+    "report_multiqc_command": "/global/smf/miniconda38_admin/envs/multiqc_v1.17/bin/multiqc -n count_multiqc -o . ./RSEM_output",
+    "report_plot_data": {
+        "rsem_assignment_plot": {
+            "plot_type": "bar_graph",
+            "samples": [
+                [
+                    "RRRM1_MG_VIV_LAR_OLD_VL19"
+                ]
+            ],
+            "datasets": [
+                [
+                    {
+                        "name": "Aligned uniquely to a gene",
+                        "data": [
+                            533735.0
+                        ],
+                        "color": "#437bb1"
+                    },
+                    {
+                        "name": "Aligned to multiple genes",
+                        "data": [
+                            124666.0
+                        ],
+                        "color": "#e63491"
+                    },
+                    {
+                        "name": "Filtered due to too many alignments",
+                        "data": [
+                            0.0
+                        ],
+                        "color": "#b1084c"
+                    },
+                    {
+                        "name": "Unalignable reads",
+                        "data": [
+                            46649.0
+                        ],
+                        "color": "#7f0000"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "rsem_assignment_plot",
+                "title": "RSEM: Mapped reads",
+                "ylab": "# Reads",
+                "cpswitch_counts_label": "Number of Reads",
+                "hide_zero_cats": false
+            }
+        },
+        "rsem_multimapping_rates": {
+            "plot_type": "xy_line",
+            "datasets": [
+                [
+                    {
+                        "name": "RRRM1_MG_VIV_LAR_OLD_VL19",
+                        "data": [
+                            [
+                                0,
+                                46649
+                            ],
+                            [
+                                1,
+                                244099
+                            ],
+                            [
+                                2,
+                                191892
+                            ],
+                            [
+                                3,
+                                113794
+                            ],
+                            [
+                                4,
+                                45086
+                            ],
+                            [
+                                5,
+                                26332
+                            ],
+                            [
+                                6,
+                                13864
+                            ],
+                            [
+                                7,
+                                8411
+                            ],
+                            [
+                                8,
+                                5253
+                            ],
+                            [
+                                9,
+                                3592
+                            ],
+                            [
+                                10,
+                                1923
+                            ],
+                            [
+                                11,
+                                1252
+                            ],
+                            [
+                                12,
+                                860
+                            ],
+                            [
+                                13,
+                                588
+                            ],
+                            [
+                                14,
+                                365
+                            ],
+                            [
+                                15,
+                                178
+                            ],
+                            [
+                                16,
+                                188
+                            ],
+                            [
+                                17,
+                                104
+                            ],
+                            [
+                                18,
+                                140
+                            ],
+                            [
+                                19,
+                                65
+                            ],
+                            [
+                                20,
+                                66
+                            ],
+                            [
+                                21,
+                                46
+                            ],
+                            [
+                                22,
+                                17
+                            ],
+                            [
+                                23,
+                                31
+                            ],
+                            [
+                                24,
+                                46
+                            ],
+                            [
+                                25,
+                                56
+                            ],
+                            [
+                                26,
+                                37
+                            ],
+                            [
+                                27,
+                                17
+                            ],
+                            [
+                                28,
+                                9
+                            ],
+                            [
+                                29,
+                                10
+                            ],
+                            [
+                                30,
+                                4
+                            ],
+                            [
+                                31,
+                                15
+                            ],
+                            [
+                                32,
+                                8
+                            ],
+                            [
+                                33,
+                                6
+                            ],
+                            [
+                                34,
+                                4
+                            ],
+                            [
+                                35,
+                                7
+                            ],
+                            [
+                                36,
+                                3
+                            ],
+                            [
+                                37,
+                                2
+                            ],
+                            [
+                                38,
+                                3
+                            ],
+                            [
+                                42,
+                                1
+                            ],
+                            [
+                                43,
+                                1
+                            ],
+                            [
+                                46,
+                                1
+                            ],
+                            [
+                                47,
+                                1
+                            ],
+                            [
+                                48,
+                                5
+                            ],
+                            [
+                                49,
+                                2
+                            ],
+                            [
+                                55,
+                                2
+                            ],
+                            [
+                                56,
+                                2
+                            ],
+                            [
+                                62,
+                                1
+                            ],
+                            [
+                                67,
+                                1
+                            ],
+                            [
+                                71,
+                                1
+                            ],
+                            [
+                                78,
+                                2
+                            ],
+                            [
+                                91,
+                                4
+                            ],
+                            [
+                                93,
+                                3
+                            ],
+                            [
+                                100,
+                                1
+                            ]
+                        ],
+                        "color": "#7cb5ec"
+                    }
+                ]
+            ],
+            "config": {
+                "id": "rsem_multimapping_rates",
+                "title": "RSEM: Multimapping Rates",
+                "ylab": "Counts",
+                "xlab": "Number of alignments",
+                "xDecimals": false,
+                "ymin": 0,
+                "tt_label": "<b>{point.x} alignments</b>: {point.y:.0f}"
+            }
+        }
+    },
+    "report_saved_raw_data": {
+        "multiqc_rsem": {
+            "RRRM1_MG_VIV_LAR_OLD_VL19": {
+                "Unalignable": 46649,
+                "Alignable": 658401,
+                "Filtered": 0,
+                "Total": 705050,
+                "alignable_percent": 93.38358981632508,
+                "Unique": 533735,
+                "Multi": 124666,
+                "Uncertain": 414302
+            }
+        },
+        "multiqc_general_stats": {
+            "RRRM1_MG_VIV_LAR_OLD_VL19": {
+                "Rsem_mqc-generalstats-rsem-alignable_percent": 93.38358981632508
+            }
+        }
+    },
+    "config_analysis_dir_abs": [
+        "/global/data/temp_scratch/dlho/truncated_test_files/RSEM_output"
+    ],
+    "config_analysis_dir": [
+        "./RSEM_output"
+    ],
+    "config_creation_date": "2024-07-23, 13:19 PDT",
+    "config_git_hash": null,
+    "config_intro_text": null,
+    "config_report_comment": null,
+    "config_report_header_info": null,
+    "config_script_path": "/global/smf/miniconda38_admin/envs/multiqc_v1.17/lib/python3.12/site-packages/multiqc/utils",
+    "config_short_version": "1.17",
+    "config_subtitle": null,
+    "config_title": null,
+    "config_version": "1.17"
+}

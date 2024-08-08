@@ -1,0 +1,2 @@
+Sample	Unalignable	Filtered	Alignable	alignable_percent	Multi	Uncertain	Total	Unique
+RRRM1_MG_VIV_LAR_OLD_VL19	46649	0	658401	93.38358981632508	124666	414302	705050	533735
