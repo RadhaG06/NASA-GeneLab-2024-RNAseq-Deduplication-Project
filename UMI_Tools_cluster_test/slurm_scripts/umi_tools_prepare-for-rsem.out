@@ -1,0 +1,16 @@
+umi_tools_prepare-for-rsem
+
+start time: 1721696674
+dp1
+'umi_tools' is now available. Runs via singularity under-the-hood).
+
+Tool version: 
+/var/spool/slurm/slurmd/job266367/slurm_script: line 38: tool: command not found
+
+
+end time: 1721696861
+total run time(s): 187
+total run time(m): 3.11
+total run time(h): .05
+
+slurm job ID: 266367
